@@ -7,7 +7,7 @@
 }
 
 body {
-  background: radial-gradient(circle, rgba(246, 42, 76, 0.222), rgba(245, 129, 61, 0.551));
+  background: radial-gradient(circle, rgba(246, 42, 76, 0.25), rgba(245, 129, 61, 0.351));
   font-family: 'Playfair Display', serif;
 }
 
@@ -31,6 +31,7 @@ h1 {
   border: .125rem solid black;
   display: flex;
   gap: 1.5rem;
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, .7);
 }
 
 .box {
@@ -41,6 +42,8 @@ h1 {
   color: black;
   background: linear-gradient(0deg, rgba(225, 68, 5, 0.5), rgba(250, 196, 60, 0.35));
   cursor: default;
+  box-shadow: 0 0 .35rem rgba(0, 0, 0, .8);
+  border-radius: .5rem;
 }
 
 .box:hover {
@@ -88,6 +91,7 @@ button:hover {
 
 .active {
   background: linear-gradient(180deg, rgba(241, 70, 8, 0.5), rgba(180, 50, 50, 0.6));
+  box-shadow: 0 0 .15rem rgba(0, 0, 0, .8);
 }
 
 .active:hover {
